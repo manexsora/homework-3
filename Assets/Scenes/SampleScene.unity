@@ -134,12 +134,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: df9fc86559311704b9cd9ec19513283b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df9fc86559311704b9cd9ec19513283b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: df9fc86559311704b9cd9ec19513283b,
         type: 3}
@@ -196,12 +196,39 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df9fc86559311704b9cd9ec19513283b, type: 3}
+--- !u!1 &184866891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: a801980fb2c2eb343bc70a1508aff3a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 860609767}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &184866892 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a801980fb2c2eb343bc70a1508aff3a6,
     type: 3}
   m_PrefabInstance: {fileID: 860609767}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &184866893
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 184866891}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: a801980fb2c2eb343bc70a1508aff3a6, type: 3}
+  m_Controller: {fileID: 9100000, guid: f90d8a1b6222e554682849a7391cf9a4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &201131818
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,6 +241,7 @@ GameObject:
   - component: {fileID: 201131822}
   - component: {fileID: 201131821}
   - component: {fileID: 201131820}
+  - component: {fileID: 201131823}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -313,6 +341,50 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &201131823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201131818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
 --- !u!1 &266779805
 GameObject:
   m_ObjectHideFlags: 0
@@ -1034,12 +1106,12 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: a801980fb2c2eb343bc70a1508aff3a6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a801980fb2c2eb343bc70a1508aff3a6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: a801980fb2c2eb343bc70a1508aff3a6,
         type: 3}
@@ -1094,7 +1166,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: a801980fb2c2eb343bc70a1508aff3a6,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 184866893}
   m_SourcePrefab: {fileID: 100100000, guid: a801980fb2c2eb343bc70a1508aff3a6, type: 3}
 --- !u!1 &1258702086
 GameObject:
