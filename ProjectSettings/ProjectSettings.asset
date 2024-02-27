@@ -76,7 +76,6 @@ PlayerSettings:
   androidMinimumWindowWidth: 400
   androidMinimumWindowHeight: 300
   androidFullscreenMode: 1
-  androidAutoRotationBehavior: 1
   defaultIsNativeResolution: 1
   macRetinaSupport: 1
   runInBackground: 0
@@ -911,10 +910,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 1d6eb60c-a5cf-4dad-9de1-341ca28d67a2
+  cloudProjectId: 2c312a51-7d5f-4b4d-99e9-9fea8a990155
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Homework 3
+  projectName: homework-3
   organizationId: manexsora
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
