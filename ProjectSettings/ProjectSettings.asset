@@ -910,10 +910,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 2c312a51-7d5f-4b4d-99e9-9fea8a990155
+  cloudProjectId: 6b4a0682-88c7-4985-9518-085c70f69aff
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: homework-3
+  projectName: project2
   organizationId: manexsora
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
